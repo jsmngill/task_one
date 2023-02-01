@@ -1,0 +1,53 @@
+body{
+    background:linear-gradient(294.28deg, #C8DCE6 0%, #B6CCDA 100%);
+    border-radius: 15px 0px 0px 15px;
+}
+h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    margin-top: 84px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.navbar{
+    background: linear-gradient(294.28deg, #C8DCE6 0%, #B6CCDA 100%);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+}
+.nav_item{
+    display: inline;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    padding: 1rem;
+}
+.nav_item .iwatch{
+    color: #B6CCDA;
+    background: #FFFFFF;
+    border-radius: 100px;
+}
+.icons{
+    padding-top: 1rem;
+    justify-content: center;
+}
+/*hero Component*/
+.hero__tagline{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin: 0;
+}
+.btn{
+    box-sizing: border-box;
+    border: 3px solid #FFFFFF;
+    border-radius: 100px;
+    }
