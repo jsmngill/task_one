@@ -10,6 +10,7 @@ h1{
     margin-top: 84px;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    margin-bottom: 0;
 }
 .navbar{
     background: linear-gradient(294.28deg, #C8DCE6 0%, #B6CCDA 100%);
@@ -27,11 +28,11 @@ h1{
     color: #FFFFFF;
     padding: 1rem;
 }
-.nav_item .iwatch{
+/*.highlight{
+    background: #fff;
     color: #B6CCDA;
-    background: #FFFFFF;
     border-radius: 100px;
-}
+}*/
 .icons{
     padding-top: 1rem;
     justify-content: center;
@@ -47,7 +48,68 @@ h1{
     margin: 0;
 }
 .btn{
-    box-sizing: border-box;
     border: 3px solid #FFFFFF;
     border-radius: 100px;
-    }
+    padding: 1rem 3rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFAFA;
+    background: linear-gradient(294.28deg, #C8DCE6 0%, #B6CCDA 100%);
+    margin-top: 5rem;
+}
+.container{
+    display: flex;
+}
+.container .hero_text, .container .block__image{
+    flex: 1;
+}
+.container .hero_text{
+    padding: 6rem;
+}
+.block__image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.color{
+    position: absolute;
+    width: 30px;
+    height: 162px;
+    left: 1343px;
+    top: 369px;
+}
+.watch{
+    position: absolute;
+    width: 489px;
+    height: 489px;
+    left: 837px;
+    top: 177px;
+}
+.watch_shadow{
+    position: absolute;
+    width: 309px;
+    height: 50px;
+    left: 926px;
+    top: 666px;
+    background: #ABC6D6;
+    filter: blur(20.5px);
+}
+.page_indicator{
+    display: flex;
+    justify-content: space-between;
+}
+.indicator{
+    width: 73px;
+    height: 21px;
+    padding: 3rem;
+}
+footer{
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
